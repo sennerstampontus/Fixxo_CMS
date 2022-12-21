@@ -1,0 +1,18 @@
+.homeview-background {
+     width: 100%;
+     height: 100vh;
+     background: $background;
+}
+
+.homeview-container {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+}
+
+@import '../scss/headsections';
+@import '../scss//displaysections';
+@import '../scss/featuredproducts';
+@import '../scss/productcard';
